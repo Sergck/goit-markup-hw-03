@@ -52,7 +52,6 @@ img {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 
 /** ================ header ================ **/
@@ -102,12 +101,6 @@ img {
   flex-grow: 1;
   justify-content: space-between;
 }
-
-/* .header-menu-cont {
-  display: flex;
-  flex-wrap: wrap;
-  
-} */
 
 .header-menu-item {
 }
@@ -363,4 +356,5 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
