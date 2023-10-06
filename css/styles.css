@@ -293,7 +293,13 @@ img {
 }
 
 .ourportfolio-img {
-  margin-bottom: 32px;
+}
+
+.ourportfolio-conteiner {
+  padding-top: 32px;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .ourportfolio-subtitle {
@@ -302,9 +308,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 8px;
+  margin: 0 16px 8px 16px;
 }
 
 .ourportfolio-text {
@@ -313,9 +317,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 32px;
+  margin: 0 16px 32px 16px;
 }
 
 /** ================ footer ================ **/
