@@ -24,6 +24,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -35,14 +37,17 @@ img {
 }
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
+  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -97,8 +102,6 @@ img {
 }
 
 .header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -107,6 +110,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:active,
