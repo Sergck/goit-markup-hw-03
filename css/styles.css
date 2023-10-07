@@ -77,6 +77,10 @@ img {
   align-items: center;
 }
 
+.header-logo-full {
+  margin-right: 76px;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -102,11 +106,10 @@ img {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  /* flex-grow: 1;
-  justify-content: space-between; */
 }
 
 .header-menu-item {
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -339,6 +342,7 @@ img {
 }
 
 .logo-frame {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
