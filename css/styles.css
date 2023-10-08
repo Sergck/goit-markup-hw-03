@@ -107,6 +107,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
 }
 
@@ -242,7 +243,6 @@ img {
 }
 
 .ourteam-img {
-  margin-bottom: 32px;
 }
 
 .name-member {
@@ -311,7 +311,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 0 16px 8px 16px;
 }
 
 .ourportfolio-text {
